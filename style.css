@@ -1,0 +1,252 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.774);
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+.nav {
+    background: rgb(1, 10, 15);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 750px;
+    padding: 20px 0;
+}
+.profile .logo{
+    position:absolute;
+    z-index: 1;
+    left:60px;
+    display: block;
+    margin: 10px 15px 15px 10px;
+
+}
+.logo img{
+    width:90px;
+    height:50px;
+}
+.icon  img{
+    width:25px;
+    height:25px;
+    position: relative;
+    top:50px;
+    left:30px;
+    padding:5px;
+}
+.item{
+    position:relative;
+    top:40px;
+    left:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color:white;
+    
+}
+.i  img{
+    width:25px;
+    height:25px;
+    position: relative;
+    top:215px;
+    left:20px;
+    padding:5px;
+}
+.it{
+    position:relative;
+    top:207px;
+    left:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color:white;
+    
+}
+ul li{
+    position: relative;
+    color:white;
+    top:230px;
+    padding: 5px;
+    left:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color:white;
+    
+}
+
+.install .ins img{
+    width:20px;
+    height:20px;
+    position:relative;
+    bottom:-40px;
+}
+.its{
+    position:relative;
+    bottom:-35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color:white;
+    
+}
+.arrow img{
+    position:relative;
+    left:280px;
+    width: 60px;
+    height: 30px;
+    top:-290px;
+}
+.user img{
+    position:relative;
+    right:-1250px;
+    width: 90px;
+    height: 30px;
+    top:-320px;
+}
+.good  {
+    position:relative;
+    left:280px;
+    top:-280px;
+    color:white;
+    
+}
+
+.songs{
+    
+    position:relative;
+    left:255px;
+    top:-500px;
+}
+
+.songs .like img{
+    position: relative;
+    top:33px;
+    left:-35px;
+    width:70px;
+    height:78px;
+    
+}
+
+
+ .act li {
+    position: relative;
+    width:20px;
+    bottom:60px;
+    display: inline;
+    border:2px solid grey;
+    padding:28px;
+    border-radius: 5px;
+    background-color: rgba(168, 161, 161, 0.897);
+    border-width:3px;
+    height:70px;
+    margin:23px;
+}
+.head{
+    position:absolute;
+    left:280px;
+    color:white;
+    bottom:200px;
+    
+}
+.self li{
+    border:1px solid red;
+    width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 60px;
+  margin: 40px;
+    position: relative;
+    display: inline;
+    top:-150px;
+    left:220px;
+    
+    
+    
+}
+
+.l img{
+    width:60px;
+    height:100px;
+    
+}
+  
+.card-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    position:relative;
+    left:210px;
+    
+    
+}
+.cards{
+    position: relative;
+    width:20%px;
+    height: 50%;
+    /* background-color: grey; */
+    overflow: hidden;
+    border-radius: 10px;
+    bottom:150px;
+    
+
+}
+.cards img{
+    width:100%;
+    height: 50%;
+    object-fit: cover;
+}
+.card-content{
+    background-color: rgba(0, 0, 0, 0.774);
+    color:white;
+}
+.last img{
+    width:65px;
+    height:65px;
+    position: relative;
+    top:50px;
+    left:20px;
+    padding:5px;
+
+}
+.cont {
+    position: relative;
+    left:30px;
+    /* z-index:1; */
+}
+p{
+    position:relative;
+    left:100px;
+}
+.last{
+    position:fixed;
+    top:540px;
+    z-index: 1;
+    background-color: rgb(1, 10, 15);
+    width:100%;
+    height: 18%;
+}
+footer{
+    border:2px solid black;
+}
+
+.play img{
+    position: relative;
+    top:-50px;
+    left:380px;
+    width:40%;
+    height: 70px;
+
+
+}
+.right {
+    position: relative;
+    width:20px;
+    top:-50px;
+    left:200px;
+     
+}
